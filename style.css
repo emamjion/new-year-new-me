@@ -52,12 +52,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 180px;
 }
 .header-section .header-text{
     max-width: 100%;
     width: 600px;
     margin-right: 180px;
-    margin-top: 50px;
     padding: 40px 60px;
     text-align: right;
 }
