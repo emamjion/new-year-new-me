@@ -16,11 +16,44 @@
     background-size: cover;
     background-position: center;
     background-repeat:  no-repeat;
+}
+/* nav section starts */
+.header .navbar .logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.header .navbar .logo span{
+    color: #f15b22;
+}
+.header .navbar{
+    padding: 20px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .navbar .navlist li{
+    list-style: none;
+    display: inline-block;
+}
+.header .navbar .navlist li a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header .navbar .navlist a.home-active{
+    color: #f15b22;
+}
+/* nav section ends */
+/* header section starts */
+.header-section{
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.header .header-text{
+.header-section .header-text{
     max-width: 100%;
     width: 600px;
     margin-right: 180px;
@@ -28,19 +61,19 @@
     padding: 40px 60px;
     text-align: right;
 }
-.header .header-text .header-title{
+.header-section .header-text .header-title{
     font-size: 60px;
     line-height: 70px;
     font-weight: bolder;
 }
-.header .header-text .header-desc{
+.header-section .header-text .header-desc{
     color: #444;
     line-height: 25px;
     font-weight: 500;
     font-size: 16px;
     margin-top: 30px;
 }
-.header .header-text .header-btn{
+.header-section .header-text .header-btn{
     margin-top: 30px;
     display: inline-block;
     padding: 18px 25px;
@@ -52,6 +85,7 @@
     border-radius: 6px;
     cursor: pointer;
 }
+/* header section ends */
 /* Header Area Ends */
 /* Failures Section Starts */
 .failures-section{
@@ -191,7 +225,7 @@
 }
 .future-side .future-title{
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
     margin-top: 30px;
 }
